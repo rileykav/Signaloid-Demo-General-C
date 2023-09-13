@@ -6,7 +6,7 @@ main(int argc, char *  argv[])
 {
 	double	a, b, c;
 
-	a = UxHwDoubleUniformDist(0.5, 1.0);
+	a = UxHwDoubleUniformDist(0.5, 13.7);
 	printf("a = %lf\n", a);
 
 	b = UxHwDoubleUniformDist(10.0, 20.0);
@@ -19,6 +19,6 @@ main(int argc, char *  argv[])
 	printf("debug message\n");
 #endif
 
-	return 0;
+return 0;
 }
 
